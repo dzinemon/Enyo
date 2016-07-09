@@ -1,0 +1,120 @@
+/*fonts for every element*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+	{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+li,
+p,
+a,
+input,
+strong 	{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*header*/
+
+.wrapper ul li a,
+button {
+	font-weight: 600;
+	color: #fff;
+}
+
+header .box h1 {
+	font-size: 70px;
+	color: #fff;
+}
+
+header .box h1,
+footer .box h4 {
+	font-weight: 700;
+}
+
+header .box p {
+	color: rgba(255, 255, 255, .75);
+/*	text-overflow: ellipsis;*/
+	line-height: 36px;
+	font-size: 24px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/*footer*/
+
+footer .right:before {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 170px;
+}
+
+footer .box p,
+.plans p,
+.download p {
+	color: #5a5a5a;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+footer .box h4,
+.plans h4,
+.download h4
+{
+	font-size: 40px;
+	color: #25365d;
+}
+
+footer ul li {
+	font-size: 16px;
+}
+/*info*/
+.info h3{
+	color: #25365d;
+}
+
+.info p {
+	color: #5a5a5a;
+}
+
+/*plans*/
+
+.plans h4,
+.plans p,
+.download {
+	text-align: center;
+}
+
+.plans--box b {
+	font-size: 30px;
+	color: #25365d;
+}
+
+.plans--box strong {
+	font-size: 50px;
+	font-weight: 700;
+	color: #25365d;
+}
+
+/*contacts*/
+
+.contacts {
+	text-align: center;
+}
+
+.contacts a {
+	color: #25365d;
+	font-weight: 700;
+}
+
+/*download fo free*/
+
+.download {
+	
+}
+

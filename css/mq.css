@@ -1,0 +1,38 @@
+@media screen and (max-width: 479px) {
+	
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+	
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1365px) {
+	
+}
+
+
+@media screen and (min-width: 1366px) { 
+	header,
+	footer,
+	.info,
+	.features,
+	.plans,
+	.download {
+		width: 1170px;
+	}
+	
+	footer .right img {
+		left: -600px;
+		width: 640px;
+	}
+	
+	.info--box {
+		width: 270px;
+		padding-left: 90px;
+		padding-right: 30px
+	}
+	
+}
