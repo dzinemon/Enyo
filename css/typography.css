@@ -28,8 +28,9 @@ button {
 }
 
 header .box h1 {
-	font-size: 70px;
 	color: #fff;
+/*	font-size: 70px;*/
+	text-align: center;
 }
 
 header .box h1,
@@ -39,9 +40,9 @@ footer .box h4 {
 
 header .box p {
 	color: rgba(255, 255, 255, .75);
-/*	text-overflow: ellipsis;*/
+/*	font-size: 24px;*/
+	text-align: center;
 	line-height: 36px;
-	font-size: 24px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
@@ -51,7 +52,6 @@ header .box p {
 footer .right:before {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
-	font-size: 170px;
 }
 
 footer .box p,
