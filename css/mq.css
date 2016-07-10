@@ -1,15 +1,695 @@
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
+	header,
+	footer,
+	.info,
+	.features,
+	.plans,
+	.download {
+		width: 95%;
+	}
+/*	headers wrapper*/
+	.wrapper {
+		background-position: top; 
+		background-size: 310%;
+	}
 	
+	.box {
+		padding-top: 20px;
+	}
+	
+	.right,
+	left {
+/*		float: none;*/
+/*		clear: both;*/
+	}
+	
+	.wrapper header ul {
+		padding-top: 10px;
+	}
+	.wrapper header ul li {
+/*		display: list-item;*/
+		margin-bottom: 10px;
+	}
+	
+	.wrapper header ul li a {
+/*		display: block;*/
+/*		text-align: right;*/
+	}
+	
+	header .box h1 {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+	
+	header .box p {
+		width: 80%;
+		height: 72px;
+		font-size: 15px;
+	}
+	
+	header button,
+	.download button {
+		margin: 50px auto 0;
+		padding-left: 30px;	
+	}
+	
+	button {
+		width: 217px;
+		height: 56px;
+		border-radius: 56px;
+		font-size: 16px;
+	}
+	
+	header button:after,
+	.download button:after {
+		top: 20px;
+		left: 60px;
+		width: 17px;
+		height: 17px;
+	}
+	
+/*	wrappers footer starts here*/
+
+	footer {
+		height: 540px;
+	}
+	
+	footer .box {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 80px;
+	}
+	
+	footer .right {
+		display: none;
+	}
+
+	footer .right img {
+		display: none;
+	}
+	
+	footer .box h4,
+	.plans h4 {
+		margin-bottom: 25px;
+	}
+	
+	footer .box p {
+		margin-bottom: 25px;
+	}
+	
+	footer ul {
+		margin-bottom: 30px;
+	}
+
+	footer ul li {
+		margin-bottom: 10px;
+		padding-left: 30px;
+	}
+	
+	footer ul li:before {
+		top: 4px;
+		left: 0;
+		width: 15px;
+		height: 15px;
+	}
+	
+	footer button {
+		margin-bottom: 140px;
+	}
+/*header section ends here*/
+
+/*additional info section*/	
+	.info,
+	.plans {
+		padding: 100px 0 100px;
+	}
+	
+	.info--box {
+		width: 85%;
+		margin-bottom: 30px;
+		padding-left: 15%;
+		padding-right: 0%;
+	}
+	
+	.info--box:before {
+		top: 5px;
+	}
+	
+	.info--box h3 {
+		margin-bottom: 10px;
+	}
+	
+	/*features starts here*/
+	
+	.features img {
+		width: 100%;
+	}
+	
+	/*plans starts here*/
+	.plans--block {
+		width: 60%;
+		margin: 75px auto;
+	}
+
+	.plans--box {
+		width: 100%;
+		margin: 5%;
+	}
+
+	.plans--box p {
+		margin: 20px 0;
+	}
+	
+	/*contacts info starts here*/
+	
+	.contacts a {
+		margin: 30px;
+	}
+
+	.contacts p {
+		width: 80%;
+	}
+
+	/*downloads*/
+	
+	.download {
+		padding: 100px 0 500px;
+	}
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
+	header,
+	footer,
+	.info,
+	.features,
+	.plans,
+	.download {
+		width: 95%;
+	}
+/*	headers wrapper*/
+	.wrapper {
+		background-position: top; 
+		background-size: 170%;
+	}
 	
+	.box {
+		padding-top: 30px;
+	}
+	
+	.right,
+	left {
+/*		float: none;*/
+/*		clear: both;*/
+	}
+	
+	.wrapper header ul {
+		padding-top: 10px;
+	}
+	.wrapper header ul li {
+/*		display: list-item;*/
+		margin-bottom: 10px;
+	}
+	
+	.wrapper header ul li a {
+/*		display: block;*/
+/*		text-align: right;*/
+	}
+	
+	header .box h1 {
+		margin-top: 60px;
+		font-size: 40px;
+	}
+	
+	header .box p {
+		width: 80%;
+		height: 72px;
+		font-size: 18px;
+	}
+	
+	header button,
+	.download button {
+		margin: 50px auto 0;
+		padding-left: 30px;	
+	}
+	
+	button {
+		width: 217px;
+		height: 56px;
+		border-radius: 56px;
+		font-size: 16px;
+	}
+	
+	header button:after,
+	.download button:after {
+		top: 20px;
+		left: 60px;
+		width: 17px;
+		height: 17px;
+	}
+	
+/*	wrappers footer starts here*/
+
+	footer {
+		height: 540px;
+	}
+	
+	footer .box {
+		width: 90%;
+		margin: 0 auto;
+		padding-top: 80px;
+	}
+	
+	footer .right {
+		display: none;
+	}
+
+	footer .right img {
+		display: none;
+	}
+	
+	footer .box h4,
+	.plans h4 {
+		margin-bottom: 25px;
+	}
+	
+	footer .box p {
+		margin-bottom: 25px;
+	}
+	
+	footer ul {
+		margin-bottom: 30px;
+	}
+
+	footer ul li {
+		margin-bottom: 10px;
+		padding-left: 30px;
+	}
+	
+	footer ul li:before {
+		top: 4px;
+		left: 0;
+		width: 15px;
+		height: 15px;
+	}
+	
+	footer button {
+		margin-bottom: 140px;
+	}
+/*header section ends here*/
+
+/*additional info section*/	
+	.info,
+	.plans {
+		padding: 100px 0 100px;
+	}
+	
+	.info--box {
+		width: 85%;
+		margin-bottom: 30px;
+		padding-left: 15%;
+		padding-right: 0%;
+	}
+	
+	.info--box:before {
+		top: 5px;
+	}
+	
+	.info--box h3 {
+		margin-bottom: 10px;
+	}
+	
+	/*features starts here*/
+	
+	.features img {
+		width: 100%;
+	}
+	
+	/*plans starts here*/
+	.plans--block {
+		width: 60%;
+		margin: 75px auto;
+	}
+
+	.plans--box {
+		width: 100%;
+		margin: 5%;
+	}
+
+	.plans--box p {
+		margin: 20px 0;
+	}
+	
+	/*contacts info starts here*/
+	
+	.contacts a {
+		margin: 30px;
+	}
+
+	.contacts p {
+		width: 80%;
+	}
+
+	/*downloads*/
+	
+	.download {
+		padding: 100px 0 500px;
+	}
 }
 	
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+	header,
+	footer,
+	.info,
+	.features,
+	.plans,
+	.download {
+		width: 720px;
+	}
+/*	headers wrapper*/
+	.wrapper {
+		background-position: top; 
+		background-size: 130%;
+	}
+	
+	.box {
+		padding-top: 30px;
+	}
+	
+	header .box h1 {
+		margin-top: 60px;
+		font-size: 70px;
+	}
+	
+	header .box p {
+		width: 700px;
+		height: 72px;
+		font-size: 24px;
+	}
+	
+	header button,
+	.download button {
+		margin: 50px auto 0;
+		padding-left: 30px;	
+	}
+	
+	button {
+		width: 217px;
+		height: 56px;
+		border-radius: 56px;
+		font-size: 16px;
+	}
+	
+	header button:after,
+	.download button:after {
+		top: 20px;
+		left: 60px;
+		width: 17px;
+		height: 17px;
+	}
+	
+/*	wrappers footer starts here*/
+
+	footer {
+		height: 540px;
+	}
+	
+	footer .box {
+		padding-top: 130px;
+	}
+	
+	footer .left {
+		width: 608px;
+	}
+	
+	
+	footer .right:before {
+		top: -60px;
+		right: 20px;
+		width: 720px;
+		font-size: 110px;
+	}
+
+	footer .right img {
+		top: 150px;		
+		left: -430px;
+		width: 470px;
+	}
+	
+	footer .box h4,
+	.plans h4 {
+		margin-bottom: 25px;
+	}
+	
+	footer .box p {
+		margin-bottom: 25px;
+	}
+	
+	footer ul {
+		margin-bottom: 30px;
+	}
+
+	footer ul li {
+		margin-bottom: 10px;
+		padding-left: 30px;
+	}
+	
+	footer ul li:before {
+		top: 4px;
+		left: 0;
+		width: 15px;
+		height: 15px;
+	}
+	
+	footer button {
+		margin-bottom: 140px;
+	}
+/*header section ends here*/
+
+/*additional info section*/	
+	.info,
+	.plans {
+		padding: 100px 0 100px;
+	}
+	
+	.info--box {
+		width: 160px;
+		margin-bottom: 30px;
+		padding-left: 60px;
+		padding-right: 20px;
+	}
+	
+	.info--box:before {
+		top: 5px;
+	}
+	
+	.info--box h3 {
+		margin-bottom: 10px;
+	}
+	
+	/*features starts here*/
+	
+	.features img {
+		width: 720px;
+	}
+	
+	/*plans starts here*/
+	.plans--block {
+		margin: 75px 0;
+	}
+
+	.plans--box {
+		width: 210px;
+		height: 185px;
+		margin: 0 15px;
+	}
+
+	.plans--box p {
+		margin-top: 20px;
+	}
+	
+	/*contacts info starts here*/
+	
+	.contacts a {
+		margin: 30px;
+	}
+
+	.contacts p {
+		width: 540px;
+	}
+
+	/*downloads*/
+	
+	.download {
+		padding: 100px 0 500px;
+	}
 	
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1365px) {
+	header,
+	footer,
+	.info,
+	.features,
+	.plans,
+	.download {
+		width: 960px;
+	}
+/*	headers wrapper*/
+	.wrapper {
+		background-position: top; 
+		background-size: contain;
+	}
+	
+	.box {
+		padding-top: 30px;
+	}
+	
+	header .box h1 {
+		margin-top: 80px;
+		font-size: 70px;
+	}
+	
+	header .box p {
+		width: 850px;
+		height: 72px;
+		font-size: 24px;
+	}
+	
+	header button,
+	.download button {
+		margin: 50px auto 0;
+		padding-left: 30px;	
+	}
+	
+	button {
+		width: 217px;
+		height: 56px;
+		border-radius: 56px;
+		font-size: 16px;
+	}
+	
+	header button:after,
+	.download button:after {
+		top: 20px;
+		left: 60px;
+		width: 17px;
+		height: 17px;
+	}
+	
+/*	wrappers footer starts here*/
+
+	footer {
+		height: 540px;
+	}
+	
+	footer .box {
+		padding-top: 90px;
+	}
+	
+	footer .left {
+		width: 608px;
+	}
+	
+	
+	footer .right:before {
+		top: -70px;
+		right: 30px;
+		width: 960px;
+		font-size: 130px;
+	}
+
+	footer .right img {
+		left: -650px;
+		width: 640px;
+	}
+	
+	footer .box h4,
+	.plans h4 {
+		margin-bottom: 25px;
+	}
+	
+	footer .box p {
+		margin-bottom: 25px;
+	}
+	
+	footer ul {
+		margin-bottom: 30px;
+	}
+
+	footer ul li {
+		margin-bottom: 10px;
+		padding-left: 30px;
+	}
+	
+	footer ul li:before {
+		top: 4px;
+		left: 0;
+		width: 15px;
+		height: 15px;
+	}
+	
+	footer button {
+		margin-bottom: 140px;
+	}
+/*header section ends here*/
+
+/*additional info section*/	
+	.info,
+	.plans {
+		padding: 100px 0 100px;
+	}
+	
+	.info--box {
+		width: 230px;
+		margin-bottom: 30px;
+		padding-left: 70px;
+		padding-right: 20px;
+	}
+	
+	.info--box:before {
+		top: 5px;
+	}
+	
+	.info--box h3 {
+		margin-bottom: 10px;
+	}
+	
+	/*features starts here*/
+	
+	.features img {
+		width: 940px;
+	}
+	
+	/*plans starts here*/
+	.plans--block {
+		margin: 75px 0;
+	}
+
+	.plans--box {
+		width: 290px;
+		height: 275px;
+		margin: 0 15px;
+	}
+
+	.plans--box p {
+		margin-top: 40px;
+	}
+	
+	/*contacts info starts here*/
+	
+	.contacts a {
+		margin: 30px;
+	}
+
+	.contacts p {
+		width: 540px;
+	}
+
+	/*downloads*/
+	
+	.download {
+		padding: 100px 0 500px;
+	}
+	
 	
 }
 
@@ -23,16 +703,161 @@
 	.download {
 		width: 1170px;
 	}
+/*	headers wrapper*/
+	.wrapper {
+		background-position: top; 
+		background-size: contain;
+	}
+	.box {
+		padding-top: 30px;
+	}
 	
+	header .box h1 {
+		margin-top: 80px;
+		font-size: 70px;
+	}
+	
+	header .box p {
+		width: 850px;
+		height: 72px;
+		font-size: 24px;
+	}
+	
+	header button,
+	.download button {
+		margin: 50px auto 0;
+		padding-left: 30px;	
+	}
+	
+	button {
+		width: 217px;
+		height: 56px;
+		border-radius: 56px;
+		font-size: 16px;
+	}
+	
+	header button:after,
+	.download button:after {
+		top: 20px;
+		left: 60px;
+		width: 17px;
+		height: 17px;
+	}
+	
+/*	wrappers footer starts here*/
+
+	footer {
+		height: 540px;
+	}
+	
+	footer .box {
+		padding-top: 150px;
+	}
+	
+	footer .left {
+		width: 708px;
+	}
+	
+	
+	footer .right:before {
+		top: -100px;
+		right: 0;
+		width: 1200px;
+		font-size: 170px;
+	}
+
 	footer .right img {
 		left: -600px;
 		width: 640px;
 	}
 	
+	footer .box h4,
+	.plans h4 {
+		margin-bottom: 25px;
+	}
+	
+	footer .box p {
+		margin-bottom: 25px;
+	}
+	
+	footer ul {
+		margin-bottom: 30px;
+	}
+
+	footer ul li {
+		margin-bottom: 10px;
+		padding-left: 30px;
+	}
+	
+	footer ul li:before {
+		top: 4px;
+		left: 0;
+		width: 15px;
+		height: 15px;
+	}
+	
+	footer button {
+		margin-bottom: 140px;
+	}
+/*header section ends here*/
+
+/*additional info section*/	
+	.info,
+	.plans {
+		padding: 100px 0 100px;
+	}
+	
 	.info--box {
 		width: 270px;
+		margin-bottom: 30px;
 		padding-left: 90px;
-		padding-right: 30px
+		padding-right: 30px;
 	}
+	
+	.info--box:before {
+		top: 5px;
+	}
+	
+	.info--box h3 {
+		margin-bottom: 10px;
+	}
+	
+	/*features starts here*/
+	
+	.features img {
+		width: 1000px;
+	}
+	
+	/*plans starts here*/
+	.plans--block {
+		margin: 75px 0;
+	}
+
+	.plans--box {
+		width: 360px;
+		height: 275px;
+		margin: 0 15px;
+	}
+
+	.plans--box p {
+		margin-top: 40px;
+	}
+	
+	/*contacts info starts here*/
+	
+	.contacts a {
+		margin: 30px;
+	}
+
+	.contacts p {
+		width: 540px;
+	}
+
+	/*downloads*/
+	
+	.download {
+		padding: 100px 0 500px;
+	}
+	
 	
 }
