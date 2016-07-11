@@ -43,13 +43,16 @@
 	}
 	
 	.wrapper header ul {
-		padding-top: 10px;
+/*		padding-top: 10px;*/
 		display: none;
 	}
 	.wrapper header ul li {
 		display: list-item;
+/*
 		margin-bottom: 10px;	
 		margin-right: 10px;	
+*/
+		margin: 10px;
 	}
 	
 	.wrapper header ul li a {
@@ -232,14 +235,17 @@
 	}
 	
 	.wrapper header ul {
-		padding-top: 10px;
+/*		padding-top: 10px;*/
 		display: none;
 	}
 	
 	.wrapper header ul li {
 		display: list-item;
+/*
 		margin-bottom: 10px;	
 		margin-right: 10px;	
+*/
+		margin: 10px;
 	}
 	
 	.wrapper header ul li a {
@@ -424,8 +430,11 @@
 	
 	.wrapper header ul li {
 		display: list-item;
+/*
 		margin-bottom: 10px;	
 		margin-right: 10px;	
+*/
+		margin: 10px;
 	}
 		
 	header .box h1 {
