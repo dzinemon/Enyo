@@ -27,6 +27,13 @@ button {
 	color: #fff;
 }
 
+input[type='button'] {
+	font-size: 30px;
+	font-weight:700;
+	line-height: 26px;
+}
+
+
 header .box h1 {
 	color: #fff;
 /*	font-size: 70px;*/

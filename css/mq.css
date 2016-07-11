@@ -17,23 +17,43 @@
 		padding-top: 20px;
 	}
 	
+	
 	.right,
 	left {
 /*		float: none;*/
 /*		clear: both;*/
 	}
 	
+	.right {
+		position: relative;
+	}
+	
+	input[type='button'] {
+		
+	}
+	
+	.wrapper .menu {
+		position: absolute;
+		width: 250px;
+		top: 40px;
+		right: 10px;
+		background: #0294dd;
+		border-radius: 4px;
+		text-align: right;
+	}
+	
 	.wrapper header ul {
 		padding-top: 10px;
+		display: none;
 	}
 	.wrapper header ul li {
-/*		display: list-item;*/
-		margin-bottom: 10px;
+		display: list-item;
+		margin-bottom: 10px;	
+		margin-right: 10px;	
 	}
 	
 	.wrapper header ul li a {
 /*		display: block;*/
-/*		text-align: right;*/
 	}
 	
 	header .box h1 {
@@ -201,17 +221,31 @@
 /*		clear: both;*/
 	}
 	
+	.wrapper .menu {
+		position: absolute;
+		width: 250px;
+		top: 70px;
+		right: 40px;
+		background: #0294dd;
+		border-radius: 4px;
+		text-align: right;
+	}
+	
 	.wrapper header ul {
 		padding-top: 10px;
+		display: none;
 	}
+	
 	.wrapper header ul li {
-/*		display: list-item;*/
-		margin-bottom: 10px;
+		display: list-item;
+		margin-bottom: 10px;	
+		margin-right: 10px;	
 	}
 	
 	.wrapper header ul li a {
-/*		display: block;*/
-/*		text-align: right;*/
+		display: list-item;
+		margin-bottom: 10px;	
+		margin-right: 10px;	
 	}
 	
 	header .box h1 {
@@ -374,6 +408,26 @@
 		padding-top: 30px;
 	}
 	
+	.wrapper .menu {
+		position: absolute;
+		width: 250px;
+		top: 70px;
+		right: 40px;
+		background: #0294dd;
+		border-radius: 4px;
+		text-align: right;
+	}
+	
+	.wrapper header ul {
+		display: none;
+	}
+	
+	.wrapper header ul li {
+		display: list-item;
+		margin-bottom: 10px;	
+		margin-right: 10px;	
+	}
+		
 	header .box h1 {
 		margin-top: 60px;
 		font-size: 70px;
@@ -537,6 +591,14 @@
 	.wrapper {
 		background-position: top; 
 		background-size: contain;
+	}
+	
+	.wrapper header ul {
+		display: block;
+	}
+	
+	input[type='button'] {
+		display: none;
 	}
 	
 	.box {
@@ -708,6 +770,15 @@
 		background-position: top; 
 		background-size: contain;
 	}
+	
+	.wrapper header ul {
+		display: block;
+	}
+	
+	input[type='button'] {
+		display: none;
+	}
+	
 	.box {
 		padding-top: 30px;
 	}
