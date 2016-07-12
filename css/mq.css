@@ -37,9 +37,12 @@
 		width: 250px;
 		top: 40px;
 		right: 10px;
-		background: #0294dd;
+/*		background: rgba(2, 148, 221, 0.9);*/
+		background: rgba(2, 148, 221, 0.9);
+
 		border-radius: 4px;
 		text-align: right;
+		z-index: 1;
 	}
 	
 	.wrapper header ul {
@@ -48,11 +51,15 @@
 	}
 	.wrapper header ul li {
 		display: list-item;
+		padding: 10px;
+/*		background: rgba(2, 148, 221, 0.7);*/
+/*		border-top-left-radius: 30px;*/
+/*		border-bottom-left-radius: 30px;*/
 /*
 		margin-bottom: 10px;	
 		margin-right: 10px;	
 */
-		margin: 10px;
+		margin: 4px;
 	}
 	
 	.wrapper header ul li a {
@@ -229,7 +236,7 @@
 		width: 250px;
 		top: 70px;
 		right: 40px;
-		background: #0294dd;
+		background: rgba(2, 148, 221, 0.9);
 		border-radius: 4px;
 		text-align: right;
 	}
@@ -413,13 +420,14 @@
 	.box {
 		padding-top: 30px;
 	}
-	
+		
 	.wrapper .menu {
 		position: absolute;
 		width: 250px;
 		top: 70px;
 		right: 40px;
-		background: #0294dd;
+/*		left: 590px;*/
+		background: rgba(2, 148, 221, 0.9);
 		border-radius: 4px;
 		text-align: right;
 	}
@@ -430,10 +438,6 @@
 	
 	.wrapper header ul li {
 		display: list-item;
-/*
-		margin-bottom: 10px;	
-		margin-right: 10px;	
-*/
 		margin: 10px;
 	}
 		
